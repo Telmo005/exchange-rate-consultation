@@ -1,0 +1,8 @@
+version: '4.10'
+
+services:
+  exchangerateinquiry:
+    image: telmo005/exchangerateinquiry:v1
+    container_name: exchangerateinquiry
+    ports:
+      - "8099:80"
